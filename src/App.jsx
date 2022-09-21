@@ -28,9 +28,7 @@ function App() {
         
       </footer>
       <div>
-        <div>
-          <img src="" alt="" />
-        </div>
+        <img src="../logo512.png" alt="" />
       </div>
     </div>
   );
