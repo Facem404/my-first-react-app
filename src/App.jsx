@@ -5,7 +5,7 @@ import React from "react"
 function App() {
   let pokemons
   fetch("https://pokeapi.co/api/v2/pokemon")
-  .then(response => response.json())
+  .then(response => response.json())  
   .then(data => pokemons);  
   return (
     <div className="App">
