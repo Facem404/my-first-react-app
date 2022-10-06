@@ -6,7 +6,7 @@ function App() {
   let pokemons
   fetch("https://pokeapi.co/api/v2/pokemon")
   .then(response => response.json())
-  .then(data => pokemons);
+  .then(data => pokemons);  
   return (
     <div className="App">
 
